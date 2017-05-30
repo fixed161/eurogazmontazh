@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url('img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*HEADER*/
+
+.main {
+    width: 100%;
+    height: 52px;
+    background: #fff;
+}
+
+.nav {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 80%;
+    height: 52px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    height: 52px;
+    margin-left: 31px;
+    list-style-type: none;
+
+}
+
+.menu li {
+    display: inline-block;
+
+    height: 52px;
+    padding-right: 25px;
+    line-height: 52px;
+}
+
+.menu li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #4c5460;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #083a8f;
+}
+
+.contacts {
+
+    height: 52px;
+}
+
+.contacts span {
+    line-height: 52px;
+}
+
+.contacts span:first-child {
+    padding-right: 20px;
+    font-size: 1.4em;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c5460;
+}
+/*HEADER*/
+
+/*INFO*/
+
+.info {
+    position: relative;
+    width: 80%;
+    height: 457px;
+    margin: 0 auto;
+    opacity: 0.6;
+    background: #000;
+}
+
+.info img {
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+}
+
+.info p {
+    position: absolute;
+    top: 185px;
+    left: 175px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #eaeaeb;
+}
+
+.detail {
+    position: absolute;
+    bottom: 51px;
+    right: 50px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid  #eaeaeb;
+    line-height: 40px;
+    text-align: center;
+}
+
+.detail span {
+    font-size: 0.75em;
+    font-family: 'Open Sans', sans-serif;
+    color:  #eaeaeb;
+}
+
+.detail span:nth-child(2) {
+    padding-left: 10px;
+}
+
+/*TITTLE*/
+
+.tittle {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    background: #f4e723;
+    line-height: 50px;
+}
+
+.tittle p {
+    margin-left: 46px;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    color: #484848;
+}
+/*TITTLE END*/
+
+/*TABS*/
+
+    .tabs {
+        width: 80%;
+        height: 46px;
+        margin: 0 auto;
+        background: #d3d9de;
+        border-bottom: #b7c3cc;
+    }
+
+    .tabs ul {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        list-style-type: none;
+    }
+
+    .tabs li {
+        display: inline-block;
+        width: 33.33333%;
+        height: 46px;
+        text-align: center;
+        line-height: 46px;
+        cursor: pointer;
+    }
+
+    .tabs li a {
+        font-size: 0.75em;
+        font-family: 'Open Sans', sans-serif;
+        color: #525354;
+        text-decoration: none;
+    }
+
+    .tabs li:hover {
+        background: #b7c3cc;
+    }
+
+    .tabs li:active {
+        box-shadow: 0 -3px 2px #0056c6;
+        background: #fff;
+    }
+
+/*TABS ENDS*/
+
+/*CONTENT*/
+
+    .content {
+        width: 80%;
+        margin: 0 auto;
+        background: #fff;
+    }
+
+    .content__list {
+        width: 80%;
+        margin: 0 auto;
+}
+
+    .content__list, .sub__list {
+        list-style-type: none;
+    }
+
+    .list {
+        padding-top: 45px;
+        border-bottom: 1px solid #d3d9de;
+    }
+
+    .list span {
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #303030;
+    }
+
+    .sub__list {
+        padding-top: 30px;
+    }
+
+    .sub__list li {
+        padding-bottom: 20px;
+    }
+
+    .sub__list a {
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+        color: #8ba0b0;
+        text-decoration: none;
+    }
+
+    .sub__list a:hover {
+        color: #56595b;
+    }
+/*CONTENT ENDS*/
+
+/*FOOTER START*/
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        min-height: 100px;
+        margin: 0 auto;
+        opacity: 0.4;
+        background: #000;
+    }
+
+    .footer span {
+        padding: 0 50px 0 50px;
+    }
+
+    .footer span:first-child {
+        font-size: 0.75em;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #fff;
+    }
+
+    .footer span:last-child {
+        font-size: 1.5em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #fff;
+    }
+
+/*FOOTER ENDS*/
